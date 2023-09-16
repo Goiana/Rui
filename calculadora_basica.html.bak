@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+
+  
+  <meta content="text/html; charset=windows-1252" http-equiv="content-type">
+
+  
+
+
+  
+  <title>Calculadora</title>
+  <script>
+function calculate(operator) {
+var num1 = parseFloat(document.getElementById("num1").value);
+var num2 = parseFloat(document.getElementById("num2").value);
+var result;
+switch (operator) {
+case "+":
+result = num1 + num2;
+break;
+case "-":
+result = num1 - num2;
+break;
+case "*":
+result = num1 * num2;
+break;
+case "/":
+result = num1 / num2;
+break;
+default:
+result = "Operação inválida";
+}
+document.getElementById("result").value = result;
+}
+  </script>
+</head>
+
+
+<body>
+
+
+<big><big><a style="font-weight: bold;" href="index.html">Prof. Rui Robson</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span style="font-weight: bold; text-decoration: underline;">Calculadora
+Basica</span><br>
+
+
+</big></big> <br>
+
+
+<br>
+
+
+Digite o primeiro n&uacute;mero&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; Digite o segundo n&uacute;mero&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Total<br>
+
+
+<br>
+
+
+<input id="num1" type="text">
+<select id="operator">
+<option value="+">+</option>
+<option value="-">-</option>
+<option value="*">*</option>
+<option value="/">/</option>
+</select>
+
+
+<input id="num2" type="text"> <input value="Calcular" onclick="calculate(document.getElementById('operator').value)" type="button"> <input id="result" type="text">
+</body>
+</html>

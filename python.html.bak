@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
+    <title>Python</title>
+  </head>
+  <body>
+    <h1><a href="file:///C:/Users/Rui%20Robson/Desktop/Prof.%20Rui%20Robson/123javascript/site_prof_rui/index.html"><span
+
+          style="text-decoration: underline;">Prof. Rui Robson</span></a></h1>
+    <p style="margin: 0.5em 0px; color: rgb(32, 33, 34); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;"><i><b>Python</b></i><span>&nbsp;</span>é
+      uma<span>&nbsp;</span><span class="mw-redirect" style="text-decoration: none; color: rgb(51, 102, 204); background: none; overflow-wrap: break-word;">linguagem
+        de programação de alto nível</span>,<sup id="cite_ref-entrevista-venners-pt-1_5-0"
+
+        class="reference" style="line-height: 1; unicode-bidi: isolate; white-space: nowrap; font-weight: normal; font-style: normal; font-size: 11.2px;"><span
+
+          style="text-decoration: none; color: rgb(51, 102, 204); background: none; overflow-wrap: break-word; white-space: nowrap;"><span
+
+            style="pointer-events: none;">[</span>5<span style="pointer-events: none;">]</span></span></sup><span>&nbsp;</span><span
+
+        style="text-decoration: none; color: rgb(51, 102, 204); background: none; overflow-wrap: break-word;">interpretada</span><span>&nbsp;</span>de<span>&nbsp;</span><span
+
+        style="text-decoration: none; color: rgb(51, 102, 204); background: none; overflow-wrap: break-word;">script</span>,<span>&nbsp;</span><span
+
+        style="text-decoration: none; color: rgb(51, 102, 204); background: none; overflow-wrap: break-word;">imperativa</span>,<span>&nbsp;</span><span
+
+        style="text-decoration: none; color: rgb(51, 102, 204); background: none; overflow-wrap: break-word;">orientada
+        a objetos</span>,<span>&nbsp;</span><span style="text-decoration: none; color: rgb(51, 102, 204); background: none; overflow-wrap: break-word;">funcional</span>,
+      de<span>&nbsp;</span><span style="text-decoration: none; color: rgb(51, 102, 204); background: none; overflow-wrap: break-word;">tipagem</span><span>&nbsp;</span>dinâmica
+      e forte. Foi lançada por<span>&nbsp;</span><span style="text-decoration: none; color: rgb(51, 102, 204); background: none; overflow-wrap: break-word;">Guido
+        van Rossum</span><span>&nbsp;</span>em<span>&nbsp;</span><span style="text-decoration: none; color: rgb(51, 102, 204); background: none; overflow-wrap: break-word;">1991</span>.<sup
+
+        id="cite_ref-svn-história_1-2" class="reference" style="line-height: 1; unicode-bidi: isolate; white-space: nowrap; font-weight: normal; font-style: normal; font-size: 11.2px;"><span
+
+          style="text-decoration: none; color: rgb(51, 102, 204); background: none; overflow-wrap: break-word; white-space: nowrap;"><span
+
+            style="pointer-events: none;">[</span>1<span style="pointer-events: none;">]</span></span></sup><span>&nbsp;</span>Atualmente,
+      possui um modelo de desenvolvimento comunitário, aberto e gerenciado pela<span>&nbsp;</span><span
+
+        style="text-decoration: none; color: rgb(51, 102, 204); background: none; overflow-wrap: break-word;">organização
+        sem fins lucrativos</span><span>&nbsp;</span><span style="text-decoration: none; color: rgb(51, 102, 204); background: none; overflow-wrap: break-word;">Python
+        Software Foundation</span>. Apesar de várias partes da linguagem
+      possuírem padrões e especificações formais, a linguagem, como um todo, não
+      é formalmente especificada. O padrão na pratica é a implementação<span>&nbsp;</span><span
+
+        style="text-decoration: none; color: rgb(51, 102, 204); background: none; overflow-wrap: break-word;">CPython</span>.</p>
+    <p style="margin: 0.5em 0px; color: rgb(32, 33, 34); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">A
+      linguagem foi projetada com a filosofia de enfatizar a importância do
+      esforço do programador sobre o esforço computacional. Prioriza a
+      legibilidade do código sobre a velocidade ou expressividade. Combina uma<span>&nbsp;</span><span
+
+        style="text-decoration: none; color: rgb(51, 102, 204); background: none; overflow-wrap: break-word;">sintaxe</span><span>&nbsp;</span>concisa
+      e clara com os recursos poderosos de sua<span>&nbsp;</span><span class="mw-redirect"
+
+        style="text-decoration: none; color: rgb(51, 102, 204); background: none; overflow-wrap: break-word;">biblioteca</span><span>&nbsp;</span>padrão
+      e por<span>&nbsp;</span><span style="text-decoration: none; color: rgb(51, 102, 204); background: none; overflow-wrap: break-word;">módulos</span><span>&nbsp;</span>e<span>&nbsp;</span><i><span
+
+          style="text-decoration: none; color: rgb(51, 102, 204); background: none; overflow-wrap: break-word;">frameworks</span></i><span>&nbsp;</span>desenvolvidos
+      por terceiros.</p>
+    <p style="margin: 0.5em 0px; color: rgb(32, 33, 34); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">Python
+      é uma linguagem de propósito geral de<span>&nbsp;</span><span class="mw-redirect"
+
+        style="text-decoration: none; color: rgb(51, 102, 204); background: none; overflow-wrap: break-word;">alto
+        nível</span>,<span>&nbsp;</span><span style="text-decoration: none; color: rgb(51, 102, 204); background: none; overflow-wrap: break-word;">multiparadigma</span>,
+      suporta o paradigma orientado a objetos, imperativo, funcional e
+      procedural. Possui tipagem dinâmica e uma de suas principais
+      características é permitir a fácil leitura do código e exigir poucas
+      linhas de código se comparado ao mesmo programa em outras linguagens.
+      Devido às suas características, ela é utilizada, principalmente, para
+      processamento de textos, dados científicos e criação de<span>&nbsp;</span><span
+
+        style="text-decoration: none; color: rgb(51, 102, 204); background: none; overflow-wrap: break-word;">CGIs</span><span>&nbsp;</span>para
+      páginas dinâmicas para a web. Foi considerada pelo público a 3ª linguagem
+      "mais amada", de acordo com uma pesquisa conduzida pelo<span>&nbsp;</span><i>site</i><span>&nbsp;</span><span
+
+        style="text-decoration: none; color: rgb(51, 102, 204); background: none; overflow-wrap: break-word;">Stack
+        Overflow</span><span>&nbsp;</span>em 2018<sup id="cite_ref-6" class="reference"
+
+        style="line-height: 1; unicode-bidi: isolate; white-space: nowrap; font-weight: normal; font-style: normal; font-size: 11.2px;"><span
+
+          style="text-decoration: none; color: rgb(51, 102, 204); background: none; overflow-wrap: break-word; white-space: nowrap;"><span
+
+            style="pointer-events: none;">[</span>6<span style="pointer-events: none;">]</span></span></sup><span>&nbsp;</span>e
+      está entre as 5 linguagens mais populares, de acordo com uma pesquisa
+      conduzida pela<span>&nbsp;</span><span style="text-decoration: none; color: rgb(51, 102, 204); background: none; overflow-wrap: break-word;">RedMonk</span>.<sup
+
+        id="cite_ref-7" class="reference" style="line-height: 1; unicode-bidi: isolate; white-space: nowrap; font-weight: normal; font-style: normal; font-size: 11.2px;"><span
+
+          style="text-decoration: none; color: rgb(51, 102, 204); background: none; overflow-wrap: break-word; white-space: nowrap;"><span
+
+            style="pointer-events: none;">[</span>7<span style="pointer-events: none;">]</span></span></sup></p>
+    <p style="margin: 0.5em 0px; color: rgb(32, 33, 34); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">O
+      nome<span>&nbsp;</span><i><b>Python</b></i><span>&nbsp;</span>teve a sua
+      origem no grupo humorístico<span>&nbsp;</span><span style="text-decoration: none; color: rgb(51, 102, 204); background: none; overflow-wrap: break-word;">britânico</span><span>&nbsp;</span><span
+
+        style="text-decoration: none; color: rgb(51, 102, 204); background: none; overflow-wrap: break-word;">Monty
+        Python</span>,<sup id="cite_ref-Computerworld_8-0" class="reference" style="line-height: 1; unicode-bidi: isolate; white-space: nowrap; font-weight: normal; font-style: normal; font-size: 11.2px;"><span
+
+          style="text-decoration: none; color: rgb(51, 102, 204); background: none; overflow-wrap: break-word; white-space: nowrap;"><span
+
+            style="pointer-events: none;">[</span>8<span style="pointer-events: none;">]</span></span></sup><span>&nbsp;</span>criador
+      do programa<span>&nbsp;</span><i><span style="text-decoration: none; color: rgb(51, 102, 204); background: none; overflow-wrap: break-word;">Monty
+          Python's Flying Circus</span></i>, embora muitas pessoas façam
+      associação com o<span>&nbsp;</span><span class="mw-redirect" style="text-decoration: none; color: rgb(51, 102, 204); background: none; overflow-wrap: break-word;">réptil</span><span>&nbsp;</span>do
+      mesmo nome (em<span>&nbsp;</span><span style="text-decoration: none; color: rgb(51, 102, 204); background: none; overflow-wrap: break-word;">português</span>,<span>&nbsp;</span><i><span
+
+          class="mw-redirect" style="text-decoration: none; color: rgb(51, 102, 204); background: none; overflow-wrap: break-word;">píton</span></i><span>&nbsp;</span>ou<span>&nbsp;</span><i>pitão</i>).</p>
+    <p style="margin: 0.5em 0px; color: rgb(32, 33, 34); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;"><br>
+    </p>
+    <p style="margin: 0.5em 0px; color: rgb(32, 33, 34); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">https://pt.wikipedia.org/wiki/Python</p>
+  </body>
+</html>

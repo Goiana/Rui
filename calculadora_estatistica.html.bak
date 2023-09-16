@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="pt-br">
+  <head>
+    <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+    <title>Estatística</title>
+  </head>
+  <body>
+    <h1><big><big>&nbsp;&nbsp;
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </big></big><span style="text-decoration: underline;">Calculadora
+        de
+        Estatística</span></h1>
+    <br>
+    <h2><big><big><small><small><big><big><small><small><a href="index.html">Prof.
+                        Rui Robson</a></small></small></big></big></small></small></big></big></h2>
+    <label for="numeros">Insira os números
+      separados por vírgula:</label>
+    <input id="numeros" type="text"><button onclick="calcularEstatisticas()">Calcular</button>
+    <h2>Resultados:</h2>
+    <p id="media">Média: </p>
+    <p id="mediana">Mediana: </p>
+    <p id="moda">Moda: </p>
+    <p id="amplitude">Amplitude: </p>
+    <p id="variancia">Variância: </p>
+    <p id="desvioPadrao">Desvio Padrão: </p>
+    <script>
+function calcularMedia(lista) {
+const soma = lista.reduce((acumulador, valor) => acumulador + valor, 0);
+return soma / lista.length;
+}
+function calcularMediana(lista) {
+const listaOrdenada = lista.slice().sort((a, b) => a - b);
+const tamanho = listaOrdenada.length;
+if (tamanho % 2 === 0) {
+const indiceMeio = tamanho / 2;
+return (listaOrdenada[indiceMeio - 1] + listaOrdenada[indiceMeio]) / 2;
+} else {
+const indiceMeio = Math.floor(tamanho / 2);
+return listaOrdenada[indiceMeio];
+}
+}
+function calcularModa(lista) {
+const ocorrencias = {};
+lista.forEach((numero) => {
+ocorrencias[numero] = (ocorrencias[numero] || 0) + 1;
+});
+let moda;
+let maxOcorrencias = 0;
+for (const numero in ocorrencias) {
+if (ocorrencias[numero] > maxOcorrencias) {
+moda = numero;
+maxOcorrencias = ocorrencias[numero];
+}
+}
+return moda;
+}
+function calcularAmplitude(lista) {
+const min = Math.min(...lista);
+const max = Math.max(...lista);
+return max - min;
+}
+function calcularVariancia(lista) {
+const media = calcularMedia(lista);
+const quadradosDiferencaMedia = lista.map((numero) => Math.pow(numero - media, 2));
+const somaQuadrados = quadradosDiferencaMedia.reduce((acumulador, valor) => acumulador + valor, 0);
+return somaQuadrados / lista.length;
+}
+function calcularDesvioPadrao(lista) {
+const variancia = calcularVariancia(lista);
+return Math.sqrt(variancia);
+}
+function calcularEstatisticas() {
+const numerosInput = document.getElementById('numeros');
+const numerosTexto = numerosInput.value.trim();
+const listaDeNumeros = numerosTexto.split(',').map(Number);
+const media = calcularMedia(listaDeNumeros);
+const mediana = calcularMediana(listaDeNumeros);
+const moda = calcularModa(listaDeNumeros);
+const amplitude = calcularAmplitude(listaDeNumeros);
+const variancia = calcularVariancia(listaDeNumeros);
+const desvioPadrao = calcularDesvioPadrao(listaDeNumeros);
+document.getElementById('media').textContent = 'Média: ' + media.toFixed(2);
+document.getElementById('mediana').textContent = 'Mediana: ' + mediana;
+document.getElementById('moda').textContent = 'Moda: ' + moda;
+document.getElementById('amplitude').textContent = 'Amplitude: ' + amplitude;
+document.getElementById('variancia').textContent = 'Variância: ' + variancia.toFixed(2);
+document.getElementById('desvioPadrao').textContent = 'Desvio Padrão: ' + desvioPadrao.toFixed(2);
+}
+</script><br>
+  </body>
+</html>
